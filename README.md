@@ -1,23 +1,9 @@
-# JSDoc Boilerplate
+# 원티드 프리온보딩 프론트엔드 챌린지 
 
-## Usage
+## JsDoc 사이트 링크
+> https://jw01987.github.io/wanted-pre-onboarding-challenge-fe-2/index.html
 
-### Install
-
-```bash
-npm install
-or
-yarn
-```
-
-### Build
-
-```bash
-npm run docs
-or
-yarn docs
-```
-
-#### Reference
-
-- [jsdoc.app](https://jsdoc.app)
+# 소개
+저는 Node.js 백엔드를 지망하는 취준생입니다    
+실무에서 프론트엔드와 백엔드 둘 다 타입스크립트에 대한 수요가 늘어나고 최근 Nest.js도 배우게 되며 자연스럽게 타입스크립트에 관심을 가져 공부하기 시작했습니다    
+해당 챌린지에 참여하여 더욱 안정성있고 협업에 용이한 언어를 배워갈 수 있으면 좋겠습니다
