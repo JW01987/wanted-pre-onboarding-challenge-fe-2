@@ -1,6 +1,5 @@
 // @ts-nocheck
 /**
- * todo를 추가 내용이 필수로 있어야함
  * @param {string} id - 아이디
  * @param {string} content - 내용
  * @param {boolean} isDone - 완료 여부
