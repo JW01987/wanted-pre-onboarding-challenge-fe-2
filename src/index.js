@@ -1,51 +1,35 @@
+// @ts-nocheck
 /**
- * Represents a book.
- * @constructor
- * @param {string} title - The title of the book.
- * @param {string} author - The author of the book.
+ * todo를 추가 내용이 필수로 있어야함
+ * @param {string} id - 아이디
+ * @param {string} content - 내용
+ * @param {boolean} isDone - 완료 여부
+ * @param {string} category - 카테고리
+ * @param {string[]} tags - 태그들
+ * @return {object} -추가가 잘 되었는지 결과 반환
  */
-function Book(title, author) {}
+function addTodo(id, content, isDone, category, tags) {}
 
 /**
- * Both of these will link to the bar function.
- * @see {@link bar}
- * @see bar
+ * 투두를 검색하는 내용
+ * @param {string} inputId -검색하기 위해 입력된 id값
+ * @return {object} -맞는 id라면 투두 반환
  */
-function foo() {}
-
-// Use the inline {@link} tag to include a link within a free-form description.
-/**
- * @see {@link foo} for further information.
- * @see {@link http://github.com|GitHub}
- */
-function bar() {}
+function readTodo(inputId) {}
 
 /**
- * Generic dairy product.
- * @constructor
+ * 투두를 업데이트하는 함수
+ * @param {string} inputId -검색하기 위해 입력된 id값
+ * @return {object} -투두 반환
  */
-function DairyProduct() {}
+function updateTodo(inputId, { content, isDone, category, tags }) {
+  /** readTodo함수와 id를 이용해 투두를 검색한 후 내용을 바꾼다*/
+}
 
 /**
- * Check whether the dairy product is solid at room temperature.
- * @abstract
- * @return {boolean}
+ * 투두를 삭제하는 함수
+ * @param {string} inputId -검색하기 위해 입력된 id값
  */
-DairyProduct.prototype.isSolid = function () {
-	throw new Error('must be implemented by subclass!');
-};
-
-/**
- * Cool, refreshing milk.
- * @constructor
- * @augments DairyProduct
- */
-function Milk() {}
-
-/**
- * Check whether milk is solid at room temperature.
- * @return {boolean} Always returns false.
- */
-Milk.prototype.isSolid = function () {
-	return false;
-};
+function deleteTodo(inputId) {
+  /** readTodo함수와 id를 이용해 투두를 검색한 후 삭제*/
+}
